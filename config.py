@@ -30,17 +30,17 @@ load_dotenv()
 class Config(object):
 
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "xxxxadd")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6041641708:AAEp1PWlfYaqS-6cO8sI8R1jZhJ9as2xfCg")
     # bot username without @
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "xxxxadd")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Gittkgiydtus77447ritcbot")
 
     # Get these values from my.telegram.org
-    API_ID = os.environ.get("API_ID", "123add")
-    API_HASH = os.environ.get("API_HASH", "xxxxadd")
+    API_ID = os.environ.get("API_ID", "3393749")
+    API_HASH = os.environ.get("API_HASH", "a15a5954a1db54952eebd08ea6c68b71")
 
     # TG Ids
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "123add")
-    OWNER_ID = os.environ.get("OWNER_ID", "123add")
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001612290802")
+    OWNER_ID = os.environ.get("OWNER_ID", "5963138883")
     AUTH_USERS = [OWNER_ID] + os.environ.get("AUTH_USERS", "").split(" ")
 
     # No need to change
